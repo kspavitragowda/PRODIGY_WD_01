@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodigy Infotech Task1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+        <div class="logo">Coffee Heaven</div>
+            <ul id="menuList">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Special Offer</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+    </nav>  
 
+    <!--Home section-->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Coffee Heaven</h1></div>   
+    </section>
+
+    <!--Menu section-->
+     <section id="menu">
+        <h1>Our menu</h1>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="espresso.png" alt="espresso" />
+                <h3>Espresso</h3>
+                <p>Strong and rich coffee. </p>
+                <span>₹210</span>
+            </div>
+            <div class="menu-card">
+                <img src="cappuccino.jpg" alt="cappuccino" />
+                <h3>Cappuccino</h3>
+                <p>Espresso with steamed milk foam.</p>
+                <span>₹250</span>
+            </div>
+            <div class="menu-card">
+                <img src="latte.jpg" alt="latte" />
+                <h3>Latte</h3>
+                <p>Smooth milk coffee. </p>
+                <span>₹290</span>
+            </div>
+        </div>
+        </section>
+
+        <!--Specials section-->
+     <section id="about" class="offer">
+            <h1>Special Offer</h1>
+       <div class="offer-container">
+        <div class="offer-info">
+        <h3>Weekend Deal</h3>
+        <p>Buy 2 Cappuccinos and Get 1 FREE!</p>
+       </div>
+       </div>
+    </section>
+   
+     <!--Contact section-->
+     <section id="contact" class="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+        <p>Mumbai,India</p>          
+        <p>coffeeheaven@gmail.com</p>
+        <p>Open daily: 8:00 am - 10:00 pm</p>
+        </div>
+        </div>
+   
+    </section>
+   
+    <script src="script.js"></script>
+</body>
+</html>
